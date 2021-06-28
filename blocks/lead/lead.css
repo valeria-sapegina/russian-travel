@@ -1,0 +1,35 @@
+.lead{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1280px;
+  margin:auto;
+  padding: 58px 148px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 48px 48px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding: 48px 2px 0;
+  }
+}
