@@ -1,6 +1,5 @@
 .place__link {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   -webkit-text-decoration-line: underline;
